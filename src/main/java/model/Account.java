@@ -23,7 +23,6 @@ public final class Account {
         return lastName;
     }
 
-
     public Trip getTrip() {
         return trip;
     }

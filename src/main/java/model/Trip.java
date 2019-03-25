@@ -12,9 +12,10 @@ public final class Trip {
         this.days = new ArrayList<>();
     }
 
-    public void addDay(Day day){
+    public void addDay(Day day) {
         days.add(day);
     }
+
     public List<Day> getDays() {
         return days;
     }

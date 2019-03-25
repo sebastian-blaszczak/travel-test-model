@@ -18,9 +18,6 @@ public final class Accommodation implements Place {
         this.breakfast = breakfast;
     }
 
-    public BigDecimal getPrice() {
-        return price;
-    }
 
     public boolean isBreakfast() {
         return breakfast;
@@ -43,6 +40,11 @@ public final class Accommodation implements Place {
     @Override
     public Address getAddress() {
         return address;
+    }
+
+    @Override
+    public BigDecimal getPrice() {
+        return price;
     }
 
     @Override

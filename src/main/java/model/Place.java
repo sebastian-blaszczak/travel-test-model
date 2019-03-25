@@ -1,5 +1,7 @@
 package model;
 
+import java.math.BigDecimal;
+
 public interface Place {
 
     Tip getTip();
@@ -7,4 +9,8 @@ public interface Place {
     String getName();
 
     Address getAddress();
+
+    default BigDecimal getPrice(){
+        return BigDecimal.ZERO;
+    }
 }
